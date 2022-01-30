@@ -1,6 +1,5 @@
 import React from 'react';
 import PaymentGateway from './PaymentGateway';
-import VeggyApp from './FoodRecipes/VeggyApp';
 
 export default function Login() {
   const [isLoginPage, setIsLoginPage] = React.useState(true);

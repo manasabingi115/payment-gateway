@@ -4,7 +4,8 @@ import GooglePayButton from '@google-pay/button-react';
 export default function PaymentGateway() {
   return (
     <div>
-      PaymentGateway
+      <p>Example PaymentGateway</p>
+      <br />
       <GooglePayButton
         environment="TEST"
         paymentRequest={{
