@@ -3,11 +3,11 @@ import PaymentGateway from './PaymentGateway';
 
 export default function Login() {
   const [isLoginPage, setIsLoginPage] = React.useState(true);
-  function PaymentGateWay() {
+  function Payment() {
     return (
       <div>
-        <p onClick={() => setIsLoginPage(true)}>logout</p>
         <PaymentGateway />
+        <p onClick={() => setIsLoginPage(true)}>logout</p>
       </div>
     );
   }
@@ -41,5 +41,5 @@ export default function Login() {
       </div>
     );
   }
-  return <div>{isLoginPage ? <LoginPage /> : <PaymentGateway />}</div>;
+  return <div>{isLoginPage ? <LoginPage /> : <Payment />}</div>;
 }
