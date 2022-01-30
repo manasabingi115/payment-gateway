@@ -19,3 +19,12 @@
   width: 100%;
   height: 35px;
 }
+#submit {
+  background-color: green;
+  height: 40px;
+  width: 100px;
+  border: none;
+  font-size: large;
+  color: white;
+  border-radius: 2px;
+}
