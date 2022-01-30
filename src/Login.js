@@ -5,8 +5,9 @@ export default function Login() {
   const [isLoginPage, setIsLoginPage] = React.useState(true);
   function Payment() {
     return (
-      <div>
+      <div className="payment-block">
         <PaymentGateway />
+        <br />
         <p onClick={() => setIsLoginPage(true)}>logout</p>
       </div>
     );

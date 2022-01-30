@@ -3,7 +3,7 @@ import GooglePayButton from '@google-pay/button-react';
 
 export default function PaymentGateway() {
   return (
-    <div>
+    <div className="payment-block">
       <p>Example PaymentGateway</p>
       <br />
       <GooglePayButton
